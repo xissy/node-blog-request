@@ -6,6 +6,15 @@
     "email": "taeho@recom.io"
   },
   "main": "lib/index",
+  "readmeFilename": "README.md",
+  "description": "A node.js module getting a blog type and proper html from popular blogs using redirection or frameset.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xissy/node-blog-request"
+  },
+  "bugs": {
+    "url": "https://github.com/xissy/node-blog-request/issues"
+  },
   "dependencies": {
     "coffee-script": ">= 1.6.3",
     "async": ">= 0.2.9",

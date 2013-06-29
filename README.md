@@ -1,6 +1,6 @@
 # node-blog-request
 
-This class provides a feature to get a proper html from popular blogs using redirection or frameset.
+A node.js module getting a blog type and proper html from popular blogs using redirection or frameset.
 
 Currently supports:
 
@@ -20,6 +20,7 @@ It mainly requires:
     * [iconv](https://npmjs.org/package/iconv)
 
 So I guess it'll be difficult to use this on Windows environment.
+Tested with MacOS and Ubuntu.
 
 
 ## Installation
@@ -35,6 +36,7 @@ The basic usage of `BlogRequest.request` is very similar to [request](https://gi
 But, it always returns an utf8 encoded string.
 
 ### Load in the module
+
 ```javascript
   var BlogRequest = require('blog-request');
 ```
