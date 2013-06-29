@@ -1,0 +1,27 @@
+{
+  "name": "blog-request",
+  "version": "0.0.1",
+  "author": {
+    "name": "Taeho Kim",
+    "email": "taeho@recom.io"
+  },
+  "main": "lib/index",
+  "dependencies": {
+    "coffee-script": ">= 1.6.3",
+    "async": ">= 0.2.9",
+    "request": ">= 2.21.0",
+    "cheerio": ">= 0.12.0",
+    "node-icu-charset-detector": ">= 0.0.6",
+    "iconv": ">= 2.0.6"
+  },
+  "devDependencies": {
+    "should": ">= 1.0.0",
+    "mocha": ">= 1.3.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script --globals lw --recursive ./test -t 10000"
+  }
+}
