@@ -1,11 +1,11 @@
 {
   "name": "blog-request",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Taeho Kim",
     "email": "taeho@recom.io"
   },
-  "main": "lib/index",
+  "main": "index",
   "readmeFilename": "README.md",
   "description": "A node.js module getting a blog type and proper html from popular blogs using redirection or frameset.",
   "repository": {
